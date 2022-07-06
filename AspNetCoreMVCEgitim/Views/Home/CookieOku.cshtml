@@ -1,0 +1,13 @@
+﻿
+@{
+
+}
+<p> 
+    Cookiedeki Bilgi : 
+    <hr />
+    @TempData["kullanici"]
+    <br />
+    @TempData["parola"]
+    <br />
+    <a asp-controller="Home" asp-action="CookieSil" class="btn btn-danger">Cookie Sil</a>
+</p>

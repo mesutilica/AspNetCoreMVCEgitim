@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">.Net Core Yenilikler</h1>
+    <p></p>
+</div>
+
+<h3>Section Kullanımı</h3>
+
+@section scripts
+    {
+    <script>
+        console.log("scripts isimli section çalıştı");
+    </script>
+}
+
+    @section Style
+    {
+    <style>
+        main h1 { background-color: red; color: white; padding: 3rem 1rem; }
+    </style>
+}
+
+    <h3>Partial Kullanımı</h3>
+
+    <partial name="_PartialMenu" />
+
+    <hr />
+
+    @await Html.PartialAsync("_PartialMenu")
+
+    <h3>Session Kullanımı</h3>
+
+    <div>
+        Session kullanmak için öncelikle startup.cs de services.AddSession ve app.usesession ile projeye ekliyoruz.
+    </div>
+
+    <div>
+        Controller da HttpContext.Session.SetString("session", "deneme"); olarak session oluşturuyoruz
+    </div>
+
+
+    <h2>Cookie(Çerez) Kullanımı</h2>
+
+    <div>
+        Cookie kullanmak için öncelikle startup.cs de app.UseCookiePolicy(); kodunu projeye ekliyoruz.
+    </div>
+
+    <a asp-controller="Home" asp-action="CookieOlustur" class="btn btn-primary">Cookie Oluştur</a>
+   
+    <a asp-controller="Home" asp-action="CookieOku" class="btn btn-success">Cookie Oku</a>
