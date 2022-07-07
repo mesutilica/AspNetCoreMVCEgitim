@@ -39,3 +39,4 @@ C:\Users\mesut\source\repos\AspNetCoreMVCEgitim\AspNetCoreMVCEgitim\obj\Debug\ne
 C:\Users\mesut\source\repos\AspNetCoreMVCEgitim\AspNetCoreMVCEgitim\obj\Debug\net5.0\AspNetCoreMVCEgitim.csproj.CopyComplete
 C:\Users\mesut\source\repos\AspNetCoreMVCEgitim\AspNetCoreMVCEgitim\obj\Debug\net5.0\Razor\Views\Shared\_PartialMenu.cshtml.g.cs
 C:\Users\mesut\source\repos\AspNetCoreMVCEgitim\AspNetCoreMVCEgitim\obj\Debug\net5.0\Razor\Views\Home\CookieOku.cshtml.g.cs
+C:\Users\mesut\source\repos\AspNetCoreMVCEgitim\AspNetCoreMVCEgitim\obj\Debug\net5.0\Razor\Views\Home\AppSetting.cshtml.g.cs
